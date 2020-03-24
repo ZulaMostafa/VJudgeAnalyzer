@@ -1,0 +1,12 @@
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\VJudgeAnalyzer.exe
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\VJudgeAnalyzer.pdb
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\Newtonsoft.Json.dll
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\Newtonsoft.Json.xml
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.csprojAssemblyReference.cache
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.Form1.resources
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.Properties.Resources.resources
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.csproj.GenerateResource.cache
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.csproj.CoreCompileInputs.cache
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.csproj.CopyComplete
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.exe
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.pdb
