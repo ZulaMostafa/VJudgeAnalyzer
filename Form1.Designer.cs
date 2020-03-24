@@ -59,7 +59,6 @@
             this.label2.Size = new System.Drawing.Size(141, 17);
             this.label2.TabIndex = 1;
             this.label2.Text = "Contest Data(JSON):";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -76,7 +75,6 @@
             this.problemsCountField.Name = "problemsCountField";
             this.problemsCountField.Size = new System.Drawing.Size(513, 22);
             this.problemsCountField.TabIndex = 3;
-            this.problemsCountField.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // problemsTagsField
             // 
@@ -119,7 +117,6 @@
             this.button2.TabIndex = 9;
             this.button2.Text = "Contest";
             this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -139,7 +136,6 @@
             this.isOngoingButton.TabIndex = 11;
             this.isOngoingButton.Text = "Ongoing Contest";
             this.isOngoingButton.UseVisualStyleBackColor = true;
-            this.isOngoingButton.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // button3
             // 

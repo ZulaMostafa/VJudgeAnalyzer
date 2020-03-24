@@ -47,8 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Analyzers\Helper.cs" />
-    <Compile Include="Analyzers\problemsAnalyzer.cs" />
+    <Compile Include="Analyzers\ContestantsAnalyzer.cs" />
+    <Compile Include="Analyzers\SubmissionsAnalyzer.cs" />
+    <Compile Include="Helper.cs" />
+    <Compile Include="Analyzers\ProblemsAnalyzer.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="Entites\Contestant.cs" />
     <Compile Include="Entites\Problem.cs" />

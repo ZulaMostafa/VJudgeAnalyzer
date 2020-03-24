@@ -18,23 +18,20 @@ namespace VJudgeAnalyzer.Entites
             IList<JToken> problemInfo = data.ToList();
 
             #region Stats
-            string stats = Helper.splitByColon(problemInfo[1].ToString());
+            string stats = Helper.SplitByColon(problemInfo[1].ToString());
             string[] splittedStats = stats.Split(new string[] { "/" }, StringSplitOptions.RemoveEmptyEntries);
             acceptedSubmissions = int.Parse(splittedStats[0]);
             totalSubmissions = int.Parse(splittedStats[1]);
-            MessageBox.Show(acceptedSubmissions + "/" + totalSubmissions);
             #endregion
             #region Letter
-            letter = Helper.splitByColon(problemInfo[2].ToString());
+            letter = Helper.SplitByColon(problemInfo[2].ToString());
             #endregion
             #region Origin
-            problemOrigin = Helper.splitByColon(problemInfo[3].ToString());
+            problemOrigin = Helper.SplitByColon(problemInfo[3].ToString());
             #endregion
             #region Name
-            problemName = Helper.splitByColon(problemInfo[4].ToString());
+            problemName = Helper.SplitByColon(problemInfo[4].ToString());
             #endregion
-
-            MessageBox.Show(letter + " " + problemName + " " + problemOrigin);
         }
     }
 }

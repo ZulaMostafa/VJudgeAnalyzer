@@ -10,7 +10,7 @@ namespace VJudgeAnalyzer.Analyzers
 {
     public static class problemsAnalyzer
     {
-        public static void loadProblems(int problemsCount, string problemsTags, string jsonData)
+        public static void LoadProblems(int problemsCount, string problemsTags, string jsonData)
         {
             JArray data = JArray.Parse(jsonData);
             string[] tags = problemsTags.Split('\n');
@@ -18,6 +18,7 @@ namespace VJudgeAnalyzer.Analyzers
             {
                 Problem problem = new Problem();
                 problem.Deserialize(data[i]);
+                Data.problems.Add(problem);
             }
         }
     }

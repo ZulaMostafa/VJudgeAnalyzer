@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json.Linq;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,8 +12,14 @@ namespace VJudgeAnalyzer.Entites
     }
     public class Submission
     {
+        public Contestant contestant;
         public Problem problem;
         public Verdicts Verdict;
         public string time;
+
+        public void Deserialize(JToken data)
+        {
+            IList<JToken> submissionInfo = data.ToList();
+        }
     }
 }

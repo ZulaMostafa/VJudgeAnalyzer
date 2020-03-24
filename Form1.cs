@@ -17,29 +17,11 @@ namespace VJudgeAnalyzer
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             Data.problems = new List<Entites.Problem>();
-        }
-
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
-
+            Data.contestants = new List<Entites.Contestant>();
+            Data.submissions = new List<Entites.Submission>();
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -49,7 +31,9 @@ namespace VJudgeAnalyzer
                 int problemsCount = int.Parse(problemsCountField.Text);
                 string problemsTags = problemsTagsField.Text;
                 string jsonData = contestDataField.Text;
-                problemsAnalyzer.loadProblems(problemsCount, problemsTags, jsonData);
+                problemsAnalyzer.LoadProblems(problemsCount, problemsTags, jsonData);
+                ContestantsAnalyzer.LoadContestants(jsonData, problemsCount);
+                SubmissionsAnalyzer.LoadSubmissions(jsonData, problemsCount);
             }
             catch (Exception ex)
             {
