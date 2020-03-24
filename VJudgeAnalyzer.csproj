@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entites\Contestant.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
