@@ -24,7 +24,8 @@ namespace VJudgeAnalyzer.Entites
             string stat = Helper.SplitByColon(contestantInfo[1].ToString());
             string[] splittedStat = stat.Split(' ');
             handle = splittedStat[0];
-            name = splittedStat[1];
+            if (splittedStat.Length > 1)
+                name = splittedStat[1];
             #endregion
             #region Time & Penalty
             string origin = Helper.SplitByColon(contestantInfo[3].ToString());

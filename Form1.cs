@@ -58,5 +58,10 @@ namespace VJudgeAnalyzer
         {
 
         }
+
+        private void AwardsButton_Click(object sender, EventArgs e)
+        {
+            outputField.Text = ContestAwardsAnalyzer.GetAwards();
+        }
     }
 }

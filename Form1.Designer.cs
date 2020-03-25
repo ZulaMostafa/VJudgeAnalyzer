@@ -37,7 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.outputField = new System.Windows.Forms.RichTextBox();
             this.contestAnalyzerButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AwardsButton = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.sheetTagsField = new System.Windows.Forms.TextBox();
@@ -121,14 +121,15 @@
             this.contestAnalyzerButton.UseVisualStyleBackColor = true;
             this.contestAnalyzerButton.Click += new System.EventHandler(this.contestAnalyzerButton_Click);
             // 
-            // button1
+            // AwardsButton
             // 
-            this.button1.Location = new System.Drawing.Point(159, 700);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(244, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Awards";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AwardsButton.Location = new System.Drawing.Point(159, 700);
+            this.AwardsButton.Name = "AwardsButton";
+            this.AwardsButton.Size = new System.Drawing.Size(244, 23);
+            this.AwardsButton.TabIndex = 10;
+            this.AwardsButton.Text = "Awards";
+            this.AwardsButton.UseVisualStyleBackColor = true;
+            this.AwardsButton.Click += new System.EventHandler(this.AwardsButton_Click);
             // 
             // button3
             // 
@@ -164,7 +165,7 @@
             this.Controls.Add(this.sheetTagsField);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AwardsButton);
             this.Controls.Add(this.contestAnalyzerButton);
             this.Controls.Add(this.outputField);
             this.Controls.Add(this.label4);
@@ -193,7 +194,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RichTextBox outputField;
         private System.Windows.Forms.Button contestAnalyzerButton;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AwardsButton;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox sheetTagsField;
