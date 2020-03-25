@@ -17,6 +17,7 @@ namespace VJudgeAnalyzer.Analyzers
             for (int i = 0; i < problemsCount; i++)
             {
                 Problem problem = new Problem();
+                problem.tag = tags[i];
                 problem.Deserialize(data[i]);
                 Data.problems.Add(problem);
             }

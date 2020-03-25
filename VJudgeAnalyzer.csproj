@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Analyzers\SheetAnalyzer.cs" />
     <Compile Include="Analyzers\ContestantsAnalyzer.cs" />
     <Compile Include="Analyzers\SubmissionsAnalyzer.cs" />
     <Compile Include="Helper.cs" />

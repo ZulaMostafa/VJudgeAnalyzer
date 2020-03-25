@@ -11,5 +11,6 @@ namespace VJudgeAnalyzer
         public static List<Problem> problems;
         public static List<Contestant> contestants;
         public static List<Submission> submissions;
+        public static List<string> Tags;
     }
 }

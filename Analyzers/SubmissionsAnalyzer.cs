@@ -71,15 +71,6 @@ namespace VJudgeAnalyzer.Analyzers
             }
 
 
-            foreach (var s in Data.submissions)
-            {
-                string ret = "";
-                ret += s.contestant.handle + "\n";
-                ret += s.problem.problemName + "\n";
-                ret += s.time + "\n";
-                ret += (s.Verdict == Verdicts.Accepted ? "Acc" : "WA");
-                MessageBox.Show(ret);
-            }
         }
     }
 }
