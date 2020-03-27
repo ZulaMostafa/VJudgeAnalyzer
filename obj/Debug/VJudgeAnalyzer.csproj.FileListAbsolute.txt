@@ -10,3 +10,7 @@ G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudg
 G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.csproj.CopyComplete
 G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.exe
 G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\obj\Debug\VJudgeAnalyzer.pdb
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\WebDriver.dll
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+G:\ACM\Projects\Training Committee\VJudgeAnalyzer\VJudgeAnalyzer\bin\Debug\WebDriver.xml

@@ -12,5 +12,7 @@ namespace VJudgeAnalyzer
         public static List<Contestant> contestants;
         public static List<Submission> submissions;
         public static List<string> Tags;
+        public static string jsonData = "";
+        public static bool UseTags = false;
     }
 }
